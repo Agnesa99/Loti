@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/Agnesa99/Loti.git/static/css/main.c098f76c.css",
+    "main.js": "/Agnesa99/Loti.git/static/js/main.8a8c964d.js",
+    "static/js/668.773a7b4f.chunk.js": "/Agnesa99/Loti.git/static/js/668.773a7b4f.chunk.js",
+    "static/css/268.260bdcee.chunk.css": "/Agnesa99/Loti.git/static/css/268.260bdcee.chunk.css",
+    "static/js/268.17699ac6.chunk.js": "/Agnesa99/Loti.git/static/js/268.17699ac6.chunk.js",
+    "static/js/572.b051295f.chunk.js": "/Agnesa99/Loti.git/static/js/572.b051295f.chunk.js",
+    "static/media/banner.png": "/Agnesa99/Loti.git/static/media/banner.04ba87e6d241a3dea0d2.png",
+    "static/media/image4.png": "/Agnesa99/Loti.git/static/media/image4.d05be6b17bbe45b37839.png",
+    "static/media/image2.png": "/Agnesa99/Loti.git/static/media/image2.8c8eef13ae890cb99264.png",
+    "static/media/Vector.png": "/Agnesa99/Loti.git/static/media/Vector.60971e5e73b7c1628c8c.png",
+    "static/media/image3.png": "/Agnesa99/Loti.git/static/media/image3.987b37585c669e062eb7.png",
+    "static/media/img3.png": "/Agnesa99/Loti.git/static/media/img3.7522f6c1ddf0e9668150.png",
+    "static/media/img2.png": "/Agnesa99/Loti.git/static/media/img2.fd3cdde82028ad1e6bde.png",
+    "static/media/img4.png": "/Agnesa99/Loti.git/static/media/img4.12595297f56de09e3116.png",
+    "static/media/img1.png": "/Agnesa99/Loti.git/static/media/img1.71ae5ae50820c1f714c3.png",
+    "static/media/logo.svg": "/Agnesa99/Loti.git/static/media/logo.8ac29775112b2b349e75.svg",
+    "index.html": "/Agnesa99/Loti.git/index.html",
+    "main.c098f76c.css.map": "/Agnesa99/Loti.git/static/css/main.c098f76c.css.map",
+    "main.8a8c964d.js.map": "/Agnesa99/Loti.git/static/js/main.8a8c964d.js.map",
+    "668.773a7b4f.chunk.js.map": "/Agnesa99/Loti.git/static/js/668.773a7b4f.chunk.js.map",
+    "268.260bdcee.chunk.css.map": "/Agnesa99/Loti.git/static/css/268.260bdcee.chunk.css.map",
+    "268.17699ac6.chunk.js.map": "/Agnesa99/Loti.git/static/js/268.17699ac6.chunk.js.map",
+    "572.b051295f.chunk.js.map": "/Agnesa99/Loti.git/static/js/572.b051295f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c098f76c.css",
+    "static/js/main.8a8c964d.js"
+  ]
+}
