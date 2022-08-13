@@ -1,0 +1,17 @@
+.home-page .slider{
+    border-bottom:1px solid  #F0F0F0;
+    margin:4% 9%;
+    h4{
+        text-align: center;
+        color: #767676;
+        font-weight: 400;
+        font-size: 16px;
+    }
+    .slider-content {
+        display: flex;
+        align-items: center;
+        .content{
+            margin: 0 5px;
+        }
+    }
+}

@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Cherish&family=Comforter&family=Comforter+Brush&family=Dancing+Script&family=Economica&family=Fira+Sans+Condensed:ital@1&family=Gwendolyn&family=Hurricane&family=Montserrat:wght@400;500&family=Nothing+You+Could+Do&family=Old+Standard+TT:ital@0;1&family=Parisienne&family=Playfair+Display&family=Poppins:ital,wght@0,400;0,500;1,500&family=Satisfy&family=Shalimar&family=Urbanist:wght@500&family=Vujahday+Script&display=swap');
+.navbar .mobile-toolbar{
+    background-color: white;
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 77.5px;
+    display: flex;
+    z-index:2000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:15px 7.5% 10px;
+    .mobile-logo-row a{
+        display: flex;
+        align-items: center;
+        .mobile-logo-container{
+            content: url('../../../../assets/Navbar/logo.svg');
+            height:40px;
+            margin-right: 8px;
+        }
+    }
+    button{
+        border:0;
+        background-color: transparent;
+        font-size: 30px;
+        cursor: pointer;
+        color:#111;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+.nav-white-text .mobile-toolbar{
+    background: none !important;
+    .mobile-logo-row a{
+        .mobile-logo-container{
+            content: url('../../../../assets/Navbar/logo.svg');
+        }
+    }
+    button{
+        color:rgb(17, 17, 17);
+    }
+}
+.navbar .toolbar__sticky{
+    box-shadow: rgba(99, 99, 99, 0.15) 0px 1.5px 2.5px 0px;
+    transition: 0.2s ease;
+    -webkit-transition: 0.2s ease;
+    background: #fff !important;
+    .mobile-logo-row a{
+        .mobile-logo-container{
+            content: url('../../../../assets/Navbar/logo.svg') !important;
+        }
+    }
+    button{
+        color:#111 !important;
+    }
+}
+

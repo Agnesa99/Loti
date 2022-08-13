@@ -1,0 +1,128 @@
+.home-page .levender-container{
+    display: flex;
+    .items{
+        width: 50%;
+        &:hover{
+            .img{
+              height: 360px;
+            }
+           .datas .container{
+                display: flex;
+            }
+            .datas .find{
+                display: none;
+            }
+        }
+        .img{
+            width: 100%;
+
+        }
+        .datas{
+            padding: 50px 30px;
+            text-align: center;
+            border: 1px solid #EAEAEA;
+            background: #FAFAFE;
+            h1{
+                font-family: 'Libre Baskerville';
+                font-size: max(23px, 1.8vw);
+               // width: 250px;
+                text-align: center;
+                margin: auto;
+                margin-bottom: 13%;
+            }
+            .find{
+                color: #111;
+                text-decoration: underline;  
+            }
+            .container{
+                display: none;
+                .block{
+                    margin-top: 10%;
+                        small{
+                            font-family: 'Lexend Deca';
+                            font-weight: 700;
+                            font-size: 16px;  
+                        }
+                        p{
+                            display: flex;
+                            justify-content: space-between;
+                            font-size: 13px;
+                            margin-top: 4%;
+                            text-align: left;
+                            span{
+                                margin-right: 6px;
+                                svg{
+                                    font-size: 5px;
+                                }
+                            }  
+                        }
+                    }
+            }  
+        }
+        .container {
+            display: inline-block;
+            vertical-align: middle;
+            -webkit-transform: perspective(1px) translateZ(0);
+            transform: perspective(1px) translateZ(0);
+            box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+            -webkit-transition-duration: 0.3s;
+            transition-duration: 0.2s;
+            -webkit-transition-property: transform;
+            transition-property: transform;
+            -webkit-transition-timing-function: ease-out;
+            transition-timing-function: ease-out;
+          }
+          .container:hover, .container:focus, .container:active {
+            -webkit-transform: translateY(-8px);
+            transform: translateY(-8px);
+          }
+    }
+}
+@media(max-width:1728px){
+    .home-page .levender-container{
+        .items{
+            &:hover{
+                .img{
+                    height: 290px;
+                }
+            }
+        }
+    }
+}
+@media(max-width:1332px){
+    .home-page .levender-container{
+        display: flex;
+        flex-wrap: wrap;
+        .items{
+            width: 50%;
+            &:hover{
+                .img{
+                    height: 620px;
+                }
+            }
+        }
+    }
+}
+@media(max-width:986px){
+    .home-page .levender-container{
+        .items{
+            &:hover{
+                .img{
+                    height: 380px;
+                }
+            }
+        }
+    }
+}
+@media(max-width:758px){
+    .home-page .levender-container{
+        .items{
+            width: 100%;
+            &:hover{
+                .img{
+                    height: 380px;
+                }
+            }
+        }
+    }
+}

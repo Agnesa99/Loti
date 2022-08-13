@@ -1,0 +1,57 @@
+.home-page{
+    overflow: hidden;
+}
+.home-page .banner-container{
+    background-image: url("../../../../assets/Navbar/banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 19% 5%;
+    margin: 0 2%;
+    .data{
+         margin:-4% 0 0 9%;
+         width: 29%;
+         h1{
+            display: flex;
+            flex-direction: column;
+            font-size: max(23px, 2.5vw);
+            color: #006BA6;
+            font-family: 'Libre Baskerville';
+         }
+         p{
+            color: #ffff;
+            font-size: max(13px, 0.85vw);
+            margin: 20px 0;
+         }
+         button{
+            background: #006BA6;
+            border-radius: 12px;
+            padding: 8px 38px;
+            gap: 10px;
+            border: none;
+            color: #ffff;
+         }
+    }
+}
+@media(max-width:1326px){
+    .home-page .banner-container{
+        padding: 16% 2%;
+    }
+}
+@media(max-width:928px){
+    .home-page .banner-container{
+        padding: 10% 2%;
+        .data{
+            margin:7% 0 0 9%;
+            width: 55%;
+        }
+    }
+}
+@media(max-width:564px){
+    .home-page .banner-container{
+        padding: 15% 0%;
+        .data{
+            margin:9% 0 0 9%;
+            width: 90%;
+        }
+    }
+}

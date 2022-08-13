@@ -1,0 +1,50 @@
+.home-page .box-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0% 8%;
+    .left{
+        content: url('../../../../assets/Navbar/Vector.png');
+        width: 45%;
+    }
+    .right{
+        margin-left: auto;
+        width: 40%;
+        h1{
+        font-family: 'Libre Baskerville';
+        font-size: max(23px, 2.6vw);
+        display: flex;
+        flex-direction: column;
+        }
+        p{
+            font-size: max(13px, 0.85vw);
+            margin: 20px 0;
+         }
+         button{
+        color:#fff;
+        font-weight: 200;
+        background: #58BADB;
+        padding:max(10px, 0.3vw) max(17.5px, 1.35vw);
+        border-radius: max(12px, 0.5vw);
+        position: relative;
+        border: none;
+         }
+    }
+}
+@media(max-width:607px){
+    .home-page .box-container{
+        display: flex;
+        flex-direction: column;
+        flex-direction: column-reverse;
+        .left{
+            margin: auto;
+            width: 100%;
+            margin-top: 5%;
+        }
+        .right{
+            margin: auto;
+            width: 100%;
+            text-align: center;
+        }
+    }
+}
