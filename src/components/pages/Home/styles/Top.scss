@@ -1,0 +1,108 @@
+.home-page .top-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .left{
+        background: #BCEBEF;
+        width: 99%;
+        border-radius: 0 170px 170px 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 3% 13%;
+        .div1{
+            text-align: center;
+            h2{
+                color:#0069A7;
+                font-weight: 400;
+                font-family: 'Libre Baskerville';
+                font-size: max(20px, 1.8vw);
+                margin-bottom: 8%;
+            }
+            button{
+                background: #58BADB;
+                border-radius: 12px;
+                padding: 10px 20px;
+                gap: 10px;
+                border: none;
+                color: #ffff;
+            }
+        }
+        .div2{
+            width: 60%;
+            text-align: center;
+            small{
+                color:#0069A7;
+            }
+            h2{
+                color:#0069A7;
+                font-weight: 400;
+                font-family: 'Libre Baskerville';
+                font-size: max(20px, 1.8vw);
+                margin-bottom: 3%;
+            }
+            .input{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+              .Email-address{
+                width: 100%;
+                input{
+                    background: #FFFFFF;
+                    border: 1px solid #BCEBEF;
+                    border-radius: 6px;
+                    padding: 1.5% 4%;
+                    margin-right: 3%;
+                    width: 300px;
+                    &::placeholder{
+                        color: #DFDFDF;
+                    }
+                    &:focus{
+                        outline: none;
+                       
+                    }
+                }
+              }
+              button{
+                background: #1ECAD3;
+                border-radius: 12px;
+                padding: 10px 20px;
+                gap: 10px;
+                border: none;
+                color: #ffff;
+                
+            } 
+         }
+        }
+    }
+    .right{
+        background: #BCEBEF;
+        width: 20%;
+        height: 222px;
+        border-radius: 170px;
+        margin-right: -10%;
+        @media(max-width:1102px){
+            height: 150px;
+        }
+    }
+}
+@media(max-width:1010px){
+   .home-page .top-container .left .div2 .input button {
+    margin-top: 4%;
+   }
+}
+@media(max-width:595px){
+    .home-page .top-container .left  {
+     display: flex;
+     flex-direction: column;
+     .div2{
+        margin-top: 8%;
+        .input .Email-address input{
+            width: 230px;
+        }
+     }
+    }
+    .home-page .top-container .right{
+       display: none;
+    }
+ }

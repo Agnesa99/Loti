@@ -1,0 +1,102 @@
+.home-page .footer-container{
+    background: #003E53;
+    padding: 4% 3%;
+    .dives{
+     border-bottom: 1px solid  #1E7897;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     padding: 2% 2%;
+    .left{
+        color: #fff;
+        .logo-footer{
+            content: url('../../../assets/Navbar/Logos-04\ 1.png');
+            margin-bottom: 16%;
+        }
+       h3{
+        color: #58BADB;
+        font-family: 'Libre Baskerville';
+        font-style: normal;
+        font-weight: 400;
+        font-size: max(20px, 1.6vw);
+       }
+       p{
+        width: 390px;
+        margin-top: 3%;
+        font-size: max(15px, 0.85vw);
+       font-style: normal;
+       font-weight: 300;
+       }
+    }
+    .right{
+        width: 50%;
+        .links-row{
+            display: flex;
+           justify-content: space-between;
+           width:100%;
+
+            .footer-list{
+                margin-right: 5%;
+                h6{
+                    font-size: max(15px, 1.3vw);
+                    color: #58BADB;
+                    font-family: 'Libre Baskerville';
+                    font-style: normal;
+                    font-weight: 400;
+                    margin-bottom: 9%;
+                }
+                .links{
+                    display: flex;
+                    flex-direction: column;
+                    a{
+                        color:#eee;
+                        font-size: max(15px, 0.85vw);
+                        margin-top: 12%;
+                        font-style: normal;
+                        font-weight: 300;
+                        &:hover{
+                            color: #58BADB;
+                        }
+                    }
+                }
+
+            }
+        }
+    }
+ }
+}
+@media(max-width:938px){
+    .home-page .footer-container .dives{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .left{
+            margin-bottom: 6%;
+            text-align: center;
+            p{
+                width: 100%;
+            }
+            .logo-footer{
+                margin: auto;
+                margin-bottom: 8%;
+            }
+        }
+        .right{
+            width: 90%;
+            text-align: center;
+        }
+    }
+}
+@media(max-width:516px){
+    .home-page .footer-container .dives .right .links-row {
+    display: flex;
+    flex-direction: column;
+    .footer-list .links a{
+    margin-top: 4%;
+    }
+    .footer-list h6{
+     margin-bottom: 2%;
+     margin-top: 15%;
+    }
+   }
+}

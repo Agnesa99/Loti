@@ -17,6 +17,10 @@ import image2 from '../../../assets/Navbar/image2.png'
 import image3 from '../../../assets/Navbar/image3.png'
 import image4 from '../../../assets/Navbar/image4.png'
 
+import slider1 from '../../../assets/Navbar/slider1.png'
+import slider2 from '../../../assets/Navbar/slider2.png'
+
+
 export const Data1=[
     {
         img:icon1,
@@ -109,5 +113,28 @@ export const Data4=[
     },
     {
         img:image4,
+    },
+]
+
+export const Data5=[
+    {
+        img:slider1,
+        name:"Jane Cooper",
+        description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minimam, ncididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam, ipsum dolor sit amet, consectetur adispiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minimam, ncididunt ut labore et dolore magna aliqua,Ut enim ad minim.",
+    },
+    {
+        img:slider2,
+        name:"Jane Cooper",
+        description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minimam, ncididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam, ipsum dolor sit amet, consectetur adispiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minimam, ncididunt ut labore et dolore magna aliqua,Ut enim ad minim.",
+    },
+    {
+        img:slider1,
+        name:"Jane Cooper",
+        description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minimam, ncididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam, ipsum dolor sit amet, consectetur adispiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minimam, ncididunt ut labore et dolore magna aliqua,Ut enim ad minim.",
+    },
+    {
+        img:slider2,
+        name:"Jane Cooper",
+        description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minimam, ncididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam, ipsum dolor sit amet, consectetur adispiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minimam, ncididunt ut labore et dolore magna aliqua,Ut enim ad minim.",
     },
 ]
