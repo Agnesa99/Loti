@@ -47,7 +47,6 @@ const Navbar = (props) => {
 
 
             <div className='nav-auth'> 
-            
                 <Link to='/Login' className='link1'>
                     Log In
                 </Link>
